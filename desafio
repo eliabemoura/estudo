@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro HTML</title>
+</head>
+<body>
+    <h1 id="início">Índice</h1>
+    <ol>
+        <li> <a href="#computador"><strong>Primeiro Computador</strong></a>  </li>
+        <li> <a href="#internet"><strong>Internet - Como surgiu?</strong></a>  </li>
+        <li> <a href="#client"><strong>Comunicação Client x Server</strong></a>  </li>
+        <li> <a href="#html"><strong>HTML, tags e seus atributos</strong></a> </li>
+        <li> <a href="#referências"><strong>Referências</strong></a> </li>
+   
+    </ol>
+
+    <h2 id="computador"> <i>Primeiro computador</i></h2>
+    <small><a href="#início">(Voltar)</a></small>
+    <p>O <strong>ENIAC</strong> <strong><i>(Electrical Numerical Integrator and Computer)</i></strong> foi o primeiro computador digital eletrônico de grande escala no mundo. Criado em fevereiro de 1946 pelos cientistas norte-americanos John Eckert e John Mauchly, da Electronic Control Company.
+        O ENIAC começou a ser desenvolvido em 1943 durante a II Guerra Mundial para computar trajetórias táticas que exigissem conhecimento substancial em matemática, mas só se tornou operacional após o final da guerra.</p>
+        
+       <p>O computador pesava 30 toneladas, media 5,50 m de altura e 25 m de comprimento e ocupava 180 m² de área construída. Foi construído sobre estruturas metálicas com 2,75 m de altura e contava com 70 mil resistores e 17.468 válvulas a vácuo ocupando a área de um ginásio desportivo. Segundo Tom Forester, quando acionado pela primeira vez, o ENIAC consumiu tanta energia que as luzes de Filadélfia piscaram.</p>
+    
+       <h2 id="internet"> <i>Como surgiu a internet?</i> </h2>
+       <small><a href="#início">(Voltar)</a></small>
+    <p> A <strong>ARPANET</strong>  funcionava através de um sistema conhecido como chaveamento de pacotes, que é um sistema de transmissão de dados em rede de computadores no qual as informações são divididas em pequenos pacotes, que por sua vez contém trecho dos dados, o endereço do destinatário e informações que permitiam a remontagem da mensagem original. O ataque inimigo nunca aconteceu, mas o que o Departamento de Defesa dos Estados Unidos não sabia era que dava início ao maior fenômeno midiático do século 20', único meio de comunicação que em apenas 4 anos conseguiria atingir cerca de 50 milhões de pessoas.
+
+       <p> Em 29 de Outubro de 1969 ocorreu a transmissão do que pode ser considerado o primeiro E-mail da história. O texto desse primeiro <i>e-mail</i> seria "LOGIN", conforme desejava o Professor Leonard Kleinrock da Universidade da Califórnia em Los Angeles (UCLA), mas o computador no Stanford Research Institute, que recebia a mensagem, parou de funcionar após receber a letra "O".</p>
+        
+      
+       <p>O cientista Tim Berners-Lee , do CERN, criou a World Wide Web em 1992.</p> 
+        
+       <p>A empresa norte-americana Netscape criou o protocolo HTTPS (HyperText Transfer Protocol Secure), possibilitando o envio de dados criptografados para transações comercias pela internet.</p> 
+        
+        <p>Por fim, vale destacar que já em 1992, o então senador Al Gore, já falava na Superhighway of Information. Essa "superestrada da informação" tinha como unidade básica de funcionamento a troca, compartilhamento e fluxo contínuo de informações pelos quatro cantos do mundo através de uma rede mundial, a Internet. O que se pode notar é que o interesse mundial aliado ao interesse comercial, que evidentemente observava o potencial financeiro e rentável daquela "novidade", proporcionou o boom (explosão) e a popularização da Internet na década de 1990. Até 2003, cerca de mais de 600 milhões de pessoas estavam conectadas à rede. Segundo a Internet World Estatistics, em junho de 2007 este número se aproxima de 1 bilhão e 234 milhões de usuários.</p>
+        <h2 id="client"> <i>Comunicação Client x Server</i></h2>
+        <small><a href="#início">(Voltar)</a></small>
+        <p>O modelo cliente-servidor (em inglês <i>client/server model</i>), em computação, é uma estrutura de aplicação distribuída que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, designados como servidores, e os requerentes dos serviços, designados como clientes.
+
+            <p>Geralmente os clientes e servidores comunicam através de uma rede de computadores em computadores distintos, mas tanto o cliente quanto o servidor podem residir no mesmo computador.</p>
+            <h2 id="html"><i>HTML, tags e seus atributos</i></h2>
+            <small><a href="#início">(Voltar)</a></small>
+            <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+
+                <p>HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: <i>hyperlink e link</i>  ). O padrão é independente de outros padrões de processamento de texto em geral.</p>
+                <p>Todo documento HTML possui marcadores (do inglês: <i>tags</i> ), palavras entre parênteses angulares (&lt; e &gt;); esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (<i>tag</i> ), atributos, valores e filhos (que podem ser outros elementos ou texto). Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança.</p>
+    <p>Isso é necessário porque os marcadores servem para definir a formatação de uma porção do documento, e assim marcamos onde começa e termina o conteúdo que receberá a formatação ou marcação necessária, específica. Alguns elementos são chamados “vazios”, pois não marcam uma região de texto, apenas inserem algum elemento no documento.</p>
+
+       <p>Cada elemento tem os seus atributos possíveis e os seus valores. Um exemplo, é o atributo <i>"href"</i>  que pode ser usado com o elemento <i>&lt;a&gt;</i> , com o link mas que não pode ser usado com o elemento meta. Isso quer dizer que devemos saber exatamente quais os atributos e valores possíveis para cada elemento.</p> 
+        
+       <p>De uma maneira geral o HTML é um poderoso recurso, sendo uma linguagem de marcação muito simples e acessível voltada para a produção e compartilhamento de documentos, imagens, vídeos e áudio via streaming.</p> 
+       <h2 id="referências"> <i>Referências</i></h2>
+       <small><a href="#início">(Voltar)</a></small>
+       <ol>
+        <li> <a href="https://www.w3.org/html/" target="_blank">Site Oficial</a> </li>
+        <li><a href="https://html.spec.whatwg.org/multipage/" target="_blank"> Especificação do HTML5</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML" target="_blank"> Aprenda HTML</a></li>
+        
+       </ol>
+        
+      
+</body>
+</html>
